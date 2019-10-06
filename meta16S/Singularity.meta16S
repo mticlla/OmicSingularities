@@ -37,6 +37,7 @@ singularity run --app <APP_NAME> <CONTAINER_PATH>
   export LANG=en_US.UTF-8
   export LANGUAGE=en_US:en
   export LC_ALL=en_US.UTF-8
+  export PATH=/opt/miniconda3/bin:$PATH
 
 # ==============================================================================
 # Global installation
@@ -109,6 +110,7 @@ singularity run --app <APP_NAME> <CONTAINER_PATH>
   QIIME2_VERSION='2019.7'
   export QIIME2_VERSION
 %appinstall QIIME2
+  export PATH=/opt/miniconda3/bin:$PATH
   echo ${PATH}
   wget https://data.qiime2.org/distro/core/qiime2-2019.7-py36-linux-conda.yml
   conda env create -n qiime2-2019.7 --file qiime2-2019.7-py36-linux-conda.yml
