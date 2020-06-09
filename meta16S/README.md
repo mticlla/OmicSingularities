@@ -22,7 +22,7 @@ Author: Monica R. Ticlla
 
 
 ```python
-!singularity inspect --list-apps meta16S.sif
+!singularity inspect --list-apps meta16s.sif
 ```
 
     ==apps==
