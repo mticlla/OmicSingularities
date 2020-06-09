@@ -34,7 +34,7 @@ Author: Monica R. Ticlla
 
 - Download the container from SingularityHub (strongly recommended)
 ```
-user@local_machine:> singularity pull --name meta16S.sif shub://mticlla/OmicSingularitites:meta16S
+user@local_machine:> singularity pull --name meta16S.sif shub://mticlla/OmicSingularities:meta16S
 ```
 
 - or, build the container using the Singularity definition file:
