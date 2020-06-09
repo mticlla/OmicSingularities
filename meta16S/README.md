@@ -22,7 +22,7 @@ Author: Monica R. Ticlla
 
 
 ```python
-!singularity inspect --list-apps meta16s.sif
+!singularity inspect --list-apps meta16S.sif
 ```
 
     ==apps==
@@ -34,7 +34,7 @@ Author: Monica R. Ticlla
 
 - Download the container from SingularityHub (strongly recommended)
 ```
-user@local_machine:> singularity pull --name meta16S.sif shub://mticlla/OmicSingularities:meta16S
+user@local_machine:> singularity pull --name meta16S.sif shub://mticlla/OmicSingularities:meta16s
 ```
 
 - or, build the container using the Singularity definition file:
